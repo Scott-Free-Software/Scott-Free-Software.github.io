@@ -32,22 +32,30 @@ body {
     font-family: "Maven Pro", sans-serif;
     font-size: 1.25rem;
     font-weight: 500;
-    margin: 3rem 0;
 }
 
 .content {
+    align-items: center;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
     gap: 2rem;
+    justify-content: center;
+    padding: 3rem;
+}
+
+@media (max-width: 48rem) {
+    .content {
+        flex-direction: column;
+        padding: 2rem;
+    }
 }
 
 .content__description {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 .distributions {
@@ -65,16 +73,17 @@ body {
 }
 
 .distribution-link--gitlab img {
-    height: 3rem;
     background: #000;
     border-radius: .4rem;
+    height: 3rem;
     padding: 0 1rem;
 }
 
 footer {
     color: #999;
     font-size: 1rem;
-    margin-top: 4rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
