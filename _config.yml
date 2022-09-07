@@ -7,3 +7,6 @@ title: "Scott-Free Software"
 # Setting the theme to `null` prevents this behavior, while still not using a premade theme.
 # See https://github.com/github/pages-gem/issues/613 for more details.
 theme: null
+
+plugins:
+  - jekyll-tidy
