@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title }} · {{ site.title }}</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
+
+    {% assign page_css = page.url | append: "styles.css" %}
+    {% for file in site.static_files %}
+      {% if file.path == page_css %}
+        <link rel="stylesheet" href="{{ page_css | relative_url }}" />
+      {% endif %}
+    {% endfor %}
+  </head>
+  <body>
+    <header>
+      <a href="/">Scott-Free Software</a>
+    </header>
+
+    {{ content }}
+  </body>
+</html>

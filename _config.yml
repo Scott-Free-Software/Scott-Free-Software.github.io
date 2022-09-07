@@ -1,0 +1,9 @@
+baseurl: "/"
+domain: "scottfree.software"
+url: "https://scottfree.software"
+title: "Scott-Free Software"
+
+# The `github-pages` gem will create an `/assets/css/style.css` file if the theme is not set.
+# Setting the theme to `null` prevents this behavior, while still not using a premade theme.
+# See https://github.com/github/pages-gem/issues/613 for more details.
+theme: null
