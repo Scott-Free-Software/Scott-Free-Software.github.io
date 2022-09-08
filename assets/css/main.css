@@ -1,17 +1,17 @@
 :root {
-    --body-background: #fff;
+    --body-background: #f6f6f6;
     --body-color: #222;
     --header-background: #366db3;
-    --header-color: #fff;
+    --header-color: #f6f6f6;
     --link-color: #07c;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --body-background: #2f2f2f;
-        --body-color: #fff;
+        --body-color: #f6f6f6;
         --header-background: #222;
-        --header-color: #fff;
+        --header-color: #f6f6f6;
         --link-color: #3af;
     }
 }
@@ -50,7 +50,7 @@ html, body {
 
 body {
     align-content: stretch;
-    background: #fff;
+    background: #f6f6f6;
     background: var(--body-background);
     color: #222;
     color: var(--body-color);
@@ -75,7 +75,7 @@ header {
     align-items: center;
     background: #366db3;
     background: var(--header-background);
-    color: #fff;
+    color: #f6f6f6;
     color: var(--header-color);
     display: flex;
     gap: .75rem;
@@ -167,7 +167,7 @@ header a {
 
 footer {
     background: #222;
-    color: #fff;
+    color: #f6f6f6;
     font-size: .9rem;
     padding: 1.5rem 2rem;
     text-align: center;
