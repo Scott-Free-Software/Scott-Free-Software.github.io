@@ -93,13 +93,13 @@ header a {
 
 .content {
     flex-grow: 1;
+    padding: 3rem 2rem;
 }
 
 .article {
     font-size: 1.25rem;
     max-width: 45rem;
-    margin: 3rem auto;
-    padding: 0 2rem;
+    margin: 0 auto;
 }
 
 .article h1 {
@@ -129,9 +129,13 @@ header a {
 }
 
 @media (max-width: 49rem) {
+    .content {
+        padding: 2rem;
+    }
+
     .article {
         font-size: 1.1rem;
-        margin: 2rem auto;
+        margin: 0 auto;
     }
 
     .article h1 {

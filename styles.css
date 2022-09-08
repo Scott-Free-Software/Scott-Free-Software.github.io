@@ -1,0 +1,29 @@
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h2 {
+    font-size: 1.88rem;
+}
+
+
+.content p {
+    margin: 0 0 3rem;
+}
+
+.content p:last-child {
+    margin: 0;
+}
+
+@media (max-width: 32.25rem) {
+    .content {
+        font-size: 1rem;
+    }
+
+    .content h2 {
+        font-size: 1.52rem;
+    }
+}
