@@ -1,7 +1,7 @@
 ---
 title: Home
-layout: default
 permalink: /
+layout: default
 ---
 
 ## Software that respects you.
