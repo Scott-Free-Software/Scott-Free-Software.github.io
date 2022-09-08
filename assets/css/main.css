@@ -69,16 +69,23 @@ a:hover {
 }
 
 header {
+    align-items: center;
     background: #366db3;
     background: var(--header-background);
     color: #fff;
     color: var(--header-color);
+    display: flex;
+    gap: .75rem;
     padding: 1rem;
     font-weight: 700;
 }
 
 header a {
     color: inherit;
+}
+
+.logo {
+    display: block;
 }
 
 .article {
