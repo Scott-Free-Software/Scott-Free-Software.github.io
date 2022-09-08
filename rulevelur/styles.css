@@ -1,4 +1,4 @@
-.content {
+.product {
     align-items: center;
     display: flex;
     flex-direction: row-reverse;
@@ -8,13 +8,13 @@
 }
 
 @media (max-width: 48rem) {
-    .content {
+    .product {
         flex-direction: column;
         padding: 2rem;
     }
 }
 
-.content__description {
+.product__description {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@
     padding: 0 1rem;
 }
 
-footer {
+.footnotes {
     color: #999;
     font-size: 1rem;
     padding: 0 1rem;
@@ -48,6 +48,6 @@ footer {
     text-align: center;
 }
 
-footer p {
+.footnotes p {
     margin: .5rem;
 }
