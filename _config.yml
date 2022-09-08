@@ -8,5 +8,10 @@ title: "Scott-Free Software"
 # See https://github.com/github/pages-gem/issues/613 for more details.
 theme: null
 
+defaults:
+  -
+    values:
+      layout: "default"
+
 plugins:
   - jekyll-tidy
