@@ -1,7 +1,7 @@
 :root {
     --body-background: #f6f6f6;
     --body-color: #222;
-    --header-background: #366db3;
+    --header-background: #222;
     --header-color: #f6f6f6;
     --link-color: #07c;
 }
@@ -10,8 +10,6 @@
     :root {
         --body-background: #2f2f2f;
         --body-color: #f6f6f6;
-        --header-background: #222;
-        --header-color: #f6f6f6;
         --link-color: #3af;
     }
 }
